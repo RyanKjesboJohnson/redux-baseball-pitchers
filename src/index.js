@@ -22,11 +22,29 @@ const pitcherList = (state=['Maud Nelson', 'Ila Borders', 'Don Newcombe', 'CC Sa
     return state;
 }
 
+const onTheMound = (state='', action) => {
+    if(action.type === 'PITCHER_ON_MOUND') {
+        const onTheMound = action.payload
+        return state = onTheMound
+    }
+    return state;
+}
+
+const behindThePlate = (state='', action) => {
+    if(action.type === 'CATCHER_BEHIND_THE_PLATE') {
+        const behindThePlate = action.payload
+        return state = behindThePlate
+    }
+    return state;
+}
+
 //This is the store
 const reduxStore = createStore(
     combineReducers({
         catcherList,
-        pitcherList
+        pitcherList,
+        onTheMound,
+        behindThePlate
     })
 )
 
