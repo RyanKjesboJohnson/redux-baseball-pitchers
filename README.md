@@ -1,9 +1,9 @@
 # Redux Baseball Pitchers
 
-- Fork
-- Clone
-- `npm install`
-- `npm start`
+[X] Fork
+[X] Clone
+[X] `npm install`
+[X] `npm start`
 
 ## Base Requirements
 
@@ -13,7 +13,7 @@ We're about to add a ton of new features to our application, but before we do, w
 
 ### Add Redux to Project
 
-Add redux into the project. You'll need to add `redux` and `react-redux` packages in order to do this.
+[X]Add redux into the project. You'll need to add `redux` and `react-redux` packages in order to do this.
 
 ### Move Data to Reducers
 
